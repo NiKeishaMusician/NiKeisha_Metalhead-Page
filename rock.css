@@ -60,3 +60,19 @@ table, th, td {
   align-items: center;
   color: black;
 }
+
+#searchBar {
+      padding: 8px;
+      width: 300px;
+      margin-bottom: 10px;
+    }
+    .result-item {
+      padding: 6px;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+      color:white
+    }
+    .result-item:hover {
+      background-color: #f0f0f0;
+      color: black;
+    }
