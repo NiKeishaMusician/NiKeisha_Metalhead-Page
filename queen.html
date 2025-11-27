@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="shortcut icon" type="x-icon" href="kiss.2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dire Straits</title>
+        <link rel="stylesheet" href="rock.css">
+
+</head>
+<body>
+    <ul>
+        <li><a href="rockmusic.html">About rock music</a></li>
+        <li><a href="metalmusic.html">About metal music</a></li>
+        <li><a href="rockbands.html">Rock bands</a></li>
+        <li><a href="metalbands.html">Metal bands</a></li>
+        <input type="text" id="searchBar" placeholder="Search..." onkeyup="searchFunction()">
+
+<div id="results"></div>
+
+<script>
+  const data = [
+    { name: "AC/DC", link: "acdc.html"},
+    { name: "Black Sabbath", link: "blacksabbath.html" },
+    { name: "Dire Straits", link: "direstraits.html"},
+    { name: "Dire Straits", link: "direstraits.html"},
+    { name: "Green Day", link: "greenday.html"},
+    { name: "KISS", link: "KISS.html" },
+    { name: "KISS Test", link: "KISStest.html" },
+    { name: "Metal Bands", link: "metalbands.html" },
+    { name: "Metal Music", link: "metalmusic.html" },
+    { name: "Pink Floyd", link: "pinkfloyd.html"},
+    { name: "QUEEN", link: "queen.html"},
+    { name: "Radiohead", link: "radiohead.html"},
+    { name: "Red Hot Chilli Peppers", link: "redhotchillipeppers.html"},
+    { name: "Rock Bands", link: "rockbands.html" },
+    { name: "Rock Music", link: "rockmusic.html" },
+    { name: "System Of a Down", link: "Systemofadown.html" },
+    { name: "The Beatles", link: "thebeatles.html"},
+    { name: "The Smiths", link: "thesmiths.html"},
+
+  ];
+
+  function searchFunction() {
+    const input = document.getElementById('searchBar').value.toLowerCase();
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = ""; 
+    if (input === "") return;
+    const filtered = data.filter(item => item.name.toLowerCase().includes(input));
+
+    filtered.forEach(item => {
+      const div = document.createElement("div");
+      div.className = "result-item";
+      div.innerText = item.name;
+      div.onclick = () => window.open(item.link, "_blank"); 
+      resultsDiv.appendChild(div);
+    });
+  }
+</script>
+      </ul>
+             
+      <a href="https://www.kissonline.com/"><img src="kiss.2.png" alt="KISS" width="600px" height="400px"></a>
+          <h1>Are you KISS fan?</h1>
+          <h2>Let's check your knowledge skills of these songs.</h2>
+          <h1>RULES:</h1>
+          <h3>To prove that you really are KISS fan fill up the blanks with right words from the song!</h3>
+          <h2>Here are top 10 songs that will be included where you should fill empty blanks!:
+            <ol class="box">
+              <li><a href="https://www.youtube.com/watch?v=K9paKQ9VdRA&list=RDK9paKQ9VdRA&start_radio=1">"Rock And Roll All Nite"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=naXPoz1Du34&list=RDnaXPoz1Du34&start_radio=1">"Detroit Rock City"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=b3-QqGVt-tM&list=RDb3-QqGVt-tM&start_radio=1">"Deuce"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=W-zmtmgswHw&list=RDW-zmtmgswHw&start_radio=1">"God Of Thunder"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=jz7hIpRv-jc&list=RDjz7hIpRv-jc&start_radio=1">"Love Gun"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=9kgQQuPZ8K0&list=RD9kgQQuPZ8K0&start_radio=1">"Beth"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=qEjmvrBebdc&list=RDqEjmvrBebdc&start_radio=1">"Hotter Than Hell"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=-az2KeSBwfQ&list=RD-az2KeSBwfQ&start_radio=1">"Shout It Out Loud"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=mfTpjrzas5E&list=RDmfTpjrzas5E&start_radio=1">"Black Diamond"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=0lVdMbUx1_k&list=RD0lVdMbUx1_k&start_radio=1">"I Was Made For Lovin' You"</a></li>
+            </ol>
+          </h2>
+
+          <table class="table">
+               <thead>
+                 <tr>
+                   <th scope="col">#</th>
+                   <th scope="col">Name </th>
+                   <th scope="col">Instrument</th>
+                   <th scope="col">Years active</th>
+                   <th scope="col">Photo</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <th scope="row">1</th>
+                   <td>Freddie Mercury</td>
+                   <td>Vocals</td>
+                   <td>1973-2023</td>
+                   <td><img src="https://i.discogs.com/iKrMvDYIiluhyvweXMe5zig2nKh8ZpYSrSGCDUhN1_A/rs:fit/g:sm/q:90/h:254/w:244/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NTUy/MC0xMTIyNTYwNjg2/LmpwZw.jpeg" alt="stanley" width="100px" height="100px"></td>
+                 </tr>
+                 <tr>
+                   <th scope="row">2</th>
+                   <td>Brian May</td>
+                   <td>Lead guitar</td>
+                   <td>1973-2023</td>
+                   <td><img src="https://i.pinimg.com/236x/da/1e/a8/da1ea81d8005b64f157af0701b634ee8.jpg" alt="simmons" width="100px" height="100px"></td>
+                 </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">3</th>
+                   <td>Roger Taylor</td>
+                   <td>Drums</td>
+                   <td>1973-1982, 1996-2002</td>
+                   <td><img src="https://i.pinimg.com/236x/61/e5/da/61e5dabe55658eaa009bfa15807bd521.jpg" alt="simmons" width="100px" height="100px"></td>
+                 </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">4</th>
+                   <td>John Deacon</td>
+                   <td>Bass</td>
+                   <td>1973-1980, 1996-2001, 2002-2004</td>
+                   <td><img src="https://static.wikia.nocookie.net/rockandrollparty/images/6/6f/Criss_as_Catman.jpg/revision/latest/thumbnail/width/360/height/360?cb=20240103191050" alt="simmons" width="100px" height="100px"></td>
+                 </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">5</th>
+                   <td>Spike Edney</td>
+                   <td>Keyboard</td>
+                   <td>1980-1991</td>
+                   <td><img src="https://i.pinimg.com/236x/60/d4/83/60d483ba14638f4c62455fee7d14ebb6.jpg" alt="simmons" width="100px" height="100px"></td>
+                 </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">6</th>
+                   <td>Adam Lambert</td>
+                   <td>Vocals</td>
+                   <td>1982-1984</td>
+                   <td><img src="https://i.redd.it/9vpveitlev3b1.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">7</th>
+                   <td>Fred Mandel</td>
+                   <td>Keyboard, guitar</td>
+                   <td>1984</td>
+                   <td><img src="https://cdn.mos.cms.futurecdn.net/YwoLms62iccEAVBJrejVDT-320-80.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">8</th>
+                   <td>Chris White</td>
+                   <td>Drums</td>
+                   <td>1984-1996</td>
+                   <td><img src="https://i.pinimg.com/236x/bb/11/16/bb11161b5d1fbcfbd32749fa1b1bc0a3.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">9</th>
+                   <td>Jamie Moses</td>
+                   <td>Guitar</td>
+                   <td>1991-1996, 2001-2002, 2004-2023</td>
+                   <td><img src="https://www.famousbirthdays.com/faces/singer-eric-image.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">10</th>
+                   <td>Mike Grose</td>
+                   <td>Bass</td>
+                   <td>2002-2023</td>
+                   <td><img src="https://i.pinimg.com/236x/61/d9/64/61d96417be9e8458b013f27c015227b6.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">11</th>
+                   <td>Morgan Fisher</td>
+                   <td>Keyboard</td>
+                   <td>2002-2023</td>
+                   <td><img src="https://i.pinimg.com/236x/61/d9/64/61d96417be9e8458b013f27c015227b6.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">12</th>
+                   <td>Neil Murray</td>
+                   <td>Bass</td>
+                   <td>2002-2023</td>
+                   <td><img src="https://i.pinimg.com/236x/61/d9/64/61d96417be9e8458b013f27c015227b6.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">13</th>
+                   <td>Paul Rodgers</td>
+                   <td>Vocals</td>
+                   <td>2002-2023</td>
+                   <td><img src="https://i.pinimg.com/236x/61/d9/64/61d96417be9e8458b013f27c015227b6.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">14</th>
+                   <td></td>
+                   <td>Drums</td>
+                   <td>2002-2023</td>
+                   <td><img src="https://i.pinimg.com/236x/61/d9/64/61d96417be9e8458b013f27c015227b6.jpg" alt="simmons" width="100px" height="100px"></td>
+                </tr>
+                 </tr>
+               </tbody>
+             </table>
+
+          <h1><a href="KISStest.html">Click here to do the test!</a></h1>
+
+</body>
+</html>
