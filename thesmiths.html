@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+            <link rel="shortcut icon" type="x-icon" href="thesmiths-removebg-preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smiths</title>
+    <link rel="stylesheet" href="rock.css">
+
+</head>
+<body>
+    <ul>
+        <li><a href="rockmusic.html">About rock music</a></li>
+        <li><a href="metalmusic.html">About metal music</a></li>
+        <li><a href="rockbands.html">Rock bands</a></li>
+        <li><a href="metalbands.html">Metal bands</a></li>
+        <input type="text" id="searchBar" placeholder="Search..." onkeyup="searchFunction()">
+
+<div id="results"></div>
+
+<script>
+  const data = [
+    { name: "AC/DC", link: "acdc.html"},
+    { name: "Black Sabbath", link: "blacksabbath.html" },
+    { name: "Dire Straits", link: "direstraits.html"},
+    { name: "Green Day", link: "greenday.html"},
+    { name: "Home Page", link: "homepage.html"},
+    { name: "KISS", link: "KISS.html" },
+    { name: "KISS Test", link: "KISStest.html" },
+    { name: "Metal Bands", link: "metalbands.html" },
+    { name: "Metal Music", link: "metalmusic.html" },
+    { name: "Pink Floyd", link: "pinkfloyd.html"},
+    { name: "QUEEN", link: "queen.html"},
+    { name: "Radiohead", link: "radiohead.html"},
+    { name: "Red Hot Chilli Peppers", link: "redhotchillipeppers.html"},
+    { name: "Rock Bands", link: "rockbands.html" },
+    { name: "Rock Music", link: "rockmusic.html" },
+    { name: "System Of a Down", link: "Systemofadown.html" },
+    { name: "The Beatles", link: "thebeatles.html"},
+    { name: "The Smiths", link: "thesmiths.html"},
+
+  ];
+
+  function searchFunction() {
+    const input = document.getElementById('searchBar').value.toLowerCase();
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = ""; 
+    if (input === "") return;
+    const filtered = data.filter(item => item.name.toLowerCase().includes(input));
+
+    filtered.forEach(item => {
+      const div = document.createElement("div");
+      div.className = "result-item";
+      div.innerText = item.name;
+      div.onclick = () => window.open(item.link, "_blank"); 
+      resultsDiv.appendChild(div);
+    });
+  }
+</script>
+      </ul>
+             
+      <a href="https://www.officialsmiths.co.uk/"><img src="thesmiths-removebg-preview.png" alt="The Smiths" width="400px" height="650px"></a>
+          <h1>Are you The Smiths fan?</h1>
+          <h2>Let's check your knowledge skills of these songs.</h2>
+          <h1>RULES:</h1>
+          <h3>To prove that you really are The Smiths fan fill up the blanks with right words from the song!</h3>
+          <h2>Here are top 10 songs that will be included where you should fill empty blanks!:
+            <ol class="box">
+              <li><a href="https://www.youtube.com/watch?v=PrZFscfJxXc&list=RDPrZFscfJxXc&start_radio=1">"War Pigs"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=0qanF-91aJo&list=RD0qanF-91aJo&start_radio=1">"Paranoid"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=b3-QqGVt-tM&list=RDb3-QqGVt-tM&start_radio=1">"Iron Man"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=W-zmtmgswHw&list=RDW-zmtmgswHw&start_radio=1">"Sweet Leaf"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=jz7hIpRv-jc&list=RDjz7hIpRv-jc&start_radio=1">"Fairies Wear Boots"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=9kgQQuPZ8K0&list=RD9kgQQuPZ8K0&start_radio=1">"N.I.B."</a></li>
+              <li><a href="https://www.youtube.com/watch?v=qEjmvrBebdc&list=RDqEjmvrBebdc&start_radio=1">"Supernaut"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=-az2KeSBwfQ&list=RD-az2KeSBwfQ&start_radio=1">"Snowblind"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=mfTpjrzas5E&list=RDmfTpjrzas5E&start_radio=1">"Sabbath Bloody Sabbath"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=0lVdMbUx1_k&list=RD0lVdMbUx1_k&start_radio=1">"Black Sabbath"</a></li>
+            </ol>
+          </h2>
+
+          <table class="table">
+               <thead>
+                 <tr>
+                   <th scope="col">#</th>
+                   <th scope="col">Name </th>
+                   <th scope="col">Instrument</th>
+                   <th scope="col">Years active</th>
+                   <th scope="col">Photo</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <th scope="row">1</th>
+                   <td>Serj Tankian</td>
+                   <td>Vocals</td>
+                   <td>1994-present (2025)</td>
+                   <td><img src="https://cdn-images.dzcdn.net/images/artist/dfcb035067316a8a4d64e41b20b4490d/1900x1900-000000-80-0-0.jpg" alt="serj" width="100px" height="100px"></td>
+                 </tr>
+                 <tr>
+                   <th scope="row">2</th>
+                   <td>Daron Malakian</td>
+                   <td>Guitar</td>
+                   <td>1994-present (2025)</td>
+                   <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3yH0BEVeRxS5hP-EX4y3QGHZL2lngMvoP4vwSiEJyUO-Y19-9SnadST8qRF7_FKytbE&usqp=CAU" alt="daron" width="100px" height="100px"></td>
+                 </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">3</th>
+                   <td>Shavo Odadjian</td>
+                   <td>Bass</td>
+                   <td>1994-present (2025)</td>
+                   <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_amSTLCWGxQppMbQk77EQ_WDvRPHZJov8g&s" alt="shavo" width="100px" height="100px"></td>
+                 </tr>
+                 </tr>
+                 <tr>
+                   <th scope="row">4</th>
+                   <td>John Dolmayan</td>
+                   <td>Drums</td>
+                   <td>1994-present (2025)</td>
+                   <td><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/John_dolmayan_%28cropped%29.jpg" alt="john" width="100px" height="100px"></td>
+                 </tr>
+               </tbody>
+             </table>
+
+          <div id="quiz">
+    <p id="lyric"></p>
+    <input type="text" id="answer" placeholder="Type your answer here">
+    <br><br>
+    <button onclick="generateLyric()">Next Lyric</button>
+    <button onclick="checkAnswer()">Check Answer</button>
+    <p id="message"></p>
+  </div>
+</body>
+</html>
