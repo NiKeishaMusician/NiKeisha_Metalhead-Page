@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="shortcut icon" type="x-icon" href="kiss.2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KISS</title>
+        <link rel="stylesheet" href="rock.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <ul>
+        <li><a href="rockmusic.html">About rock music</a></li>
+        <li><a href="metalmusic.html">About metal music</a></li>
+        <li><a href="rockbands.html">Rock bands</a></li>
+        <li><a href="metalbands.html">Metal bands</a></li>
+        <input type="text" id="searchBar" placeholder="Search..." onkeyup="searchFunction()">
+
+<div id="results"></div>
+
+<script>
+  const data = [
+    { name: "AC/DC", link: "acdc.html"},
+    { name: "All Bands", link: "allbands.html"},
+    { name: "Black Sabbath", link: "blacksabbath.html" },
+    { name: "Dire Straits", link: "direstraits.html"},
+    { name: "Green Day", link: "greenday.html"},
+    { name: "Home Page", link: "homepage.html"},
+    { name: "KISS", link: "KISS.html" },
+    { name: "KISS Test", link: "KISStest.html" },
+    { name: "Metal Bands", link: "metalbands.html" },
+    { name: "Metal Music", link: "metalmusic.html" },
+    { name: "Pink Floyd", link: "pinkfloyd.html"},
+    { name: "QUEEN", link: "queen.html"},
+    { name: "Radiohead", link: "radiohead.html"},
+    { name: "Red Hot Chilli Peppers", link: "redhotchillipeppers.html"},
+    { name: "Rock Bands", link: "rockbands.html" },
+    { name: "Rock Music", link: "rockmusic.html" },
+    { name: "System Of a Down", link: "Systemofadown.html" },
+    { name: "The Beatles", link: "thebeatles.html"},
+    { name: "The Smiths", link: "thesmiths.html"},
+
+  ];
+
+  function searchFunction() {
+    const input = document.getElementById('searchBar').value.toLowerCase();
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = ""; 
+    if (input === "") return;
+    const filtered = data.filter(item => item.name.toLowerCase().includes(input));
+
+    filtered.forEach(item => {
+      const div = document.createElement("div");
+      div.className = "result-item";
+      div.innerText = item.name;
+      div.onclick = () => window.open(item.link, "_blank"); 
+      resultsDiv.appendChild(div);
+    });
+  }
+</script>
+      </ul>
+           
+<div class="container">
+<div class="row">
+          <div class="col-md-6 col-sm-12">
+           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <a href="acdc.html"><img src="AC-DC-Logo.png" class="d-block w-100" alt="acdc"></a>
+                 </div>
+                 <div class="carousel-item">
+                   <img src="Black_Sabbath_logo.svg.png" class="d-block w-100" alt="blacksabbath">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="dire-straits-logo-png_seeklogo-452387-removebg-preview.png" class="d-block w-100" alt="direstraits">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="Green-Day-Logo-1989.png" class="d-block w-100" alt="greenday">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="kiss.2.png" class="d-block w-100" alt="kiss">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="pinkfloyd.png" class="d-block w-100" alt="pinkfloyd">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="queen.png" class="d-block w-100" alt="queen">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="Radiohead-Logo.png" class="d-block w-100" alt="radiohead">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="Red-Hot-Chili-Peppers-Logo.png" class="d-block w-100" alt="redhotchillipeppers">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="systemofadown-removebg-preview.png" class="d-block w-100" alt="systemofadown">
+                 </div>
+
+               </div>
+               </div>
+          
+
+</body>
+</html>

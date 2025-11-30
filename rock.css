@@ -94,3 +94,7 @@ table, th, td {
   cursor: pointer;
   transition: 0.3s;
 }
+
+.container {
+align-self: center;
+}
