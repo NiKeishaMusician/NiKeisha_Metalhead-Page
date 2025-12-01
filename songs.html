@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="shortcut icon" type="x-icon" href="AC-DC-Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONGS</title>
+        <link rel="stylesheet" href="rock.css">
+
+
+</head>
+<body>
+    <ul>
+        <li><a href="rockmusic.html">About rock music</a></li>
+        <li><a href="metalmusic.html">About metal music</a></li>
+        <li><a href="rockbands.html">Rock bands</a></li>
+        <li><a href="metalbands.html">Metal bands</a></li>
+        <input type="text" id="searchBar" placeholder="Search..." onkeyup="searchFunction()">
+
+<div id="results"></div>
+
+<script>
+  const data = [
+    { name: "AC/DC", link: "acdc.html"},
+    { name: "Black Sabbath", link: "blacksabbath.html" },
+    { name: "Dire Straits", link: "direstraits.html"},
+    { name: "Green Day", link: "greenday.html"},
+    { name: "Home Page", link: "homepage.html"},
+    { name: "KISS", link: "KISS.html" },
+    { name: "KISS Test", link: "KISStest.html" },
+    { name: "Metal Bands", link: "metalbands.html" },
+    { name: "Metal Music", link: "metalmusic.html" },
+    { name: "Pink Floyd", link: "pinkfloyd.html"},
+    { name: "QUEEN", link: "queen.html"},
+    { name: "Radiohead", link: "radiohead.html"},
+    { name: "Red Hot Chilli Peppers", link: "redhotchillipeppers.html"},
+    { name: "Rock Bands", link: "rockbands.html" },
+    { name: "Rock Music", link: "rockmusic.html" },
+    { name: "System Of a Down", link: "Systemofadown.html" },
+    { name: "The Beatles", link: "thebeatles.html"},
+    { name: "The Smiths", link: "thesmiths.html"},
+
+  ];
+
+  function searchFunction() {
+    const input = document.getElementById('searchBar').value.toLowerCase();
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = ""; 
+    if (input === "") return;
+    const filtered = data.filter(item => item.name.toLowerCase().includes(input));
+
+    filtered.forEach(item => {
+      const div = document.createElement("div");
+      div.className = "result-item";
+      div.innerText = item.name;
+      div.onclick = () => window.open(item.link, "_blank"); 
+      resultsDiv.appendChild(div);
+    });
+  }
+</script>
+      </ul>
+             
+          <h1>Love music?</h1>
+          <h2>Listen to any of these amazing 200 songs!</h2>
+          <h1>200 SONGS</h1>
+          <h3>ROCK ON!</h3>
+          <h2>AC/DC</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=v2AC41dglnM&list=RDv2AC41dglnM&start_radio=1">Thunderstruck</a></li>
+<li><a href="https://www.youtube.com/watch?v=pAgnJDJN4VA&list=RDpAgnJDJN4VA&start_radio=1">Back in Black</a></li>
+<li><a href="https://www.youtube.com/watch?v=l482T0yNkeo&list=RDl482T0yNkeo&start_radio=1">Highway to Hell</a></li>
+<li><a href="https://www.youtube.com/watch?v=CiJeSSzu9Bo&list=RDCiJeSSzu9Bo&start_radio=1">T.N.T.</a></li>
+<li><a href="https://www.youtube.com/watch?v=Lo2qQmj0_h4&list=RDLo2qQmj0_h4&start_radio=1">You Shook Me All Night Long</a></li>
+<li><a href="https://www.youtube.com/watch?v=FrFvNphZ5BQ&list=RDFrFvNphZ5BQ&start_radio=1">Rock N Roll Train</a></li>
+<li><a href="https://www.youtube.com/watch?v=etAIpkdhU9Q&list=RDetAIpkdhU9Q&start_radio=1">Hells Bells</a></li>
+<li><a href="https://www.youtube.com/watch?v=jsjdjWGDvFk&list=RDjsjdjWGDvFk&start_radio=1">Dirty Deeds Done Dirt Cheap</a></li>
+<li><a href="https://www.youtube.com/watch?v=PiZHNw1MtzI&list=RDPiZHNw1MtzI&start_radio=1">Who Made Who</a></li>
+<li><a href="https://www.youtube.com/watch?v=GChhRrU6BJU&list=RDGChhRrU6BJU&start_radio=1">It’s a Long Way to the Top</a></li>
+            </ol>
+          <h2>Black Sabbath</h2>  
+<ol class="box">
+<li><a href="https://www.youtube.com/watch?v=SYTKNwPGQzI">Iron Man</a></li>
+<li><a href="https://www.youtube.com/watch?v=TlwGbcwhXZI">War Pigs</a></li>
+<li><a href="https://www.youtube.com/watch?v=acs3ckBihmw">Paranoid</a></li>
+<li><a href="https://www.youtube.com/watch?v=meYC1q9LIZA">N.I.B.</a></li>
+<li><a href="https://www.youtube.com/watch?v=NUJH7y1yK_E">Heaven and Hell</a></li>
+<li><a href="https://www.youtube.com/watch?v=i02rJ4QSSNQ">Children of the Grave</a></li>
+<li><a href="https://www.youtube.com/watch?v=coocVnj8Q2k">Electric Funeral</a></li>
+<li><a href="https://www.youtube.com/watch?v=-uHaTEKR_EM">Black Sabbath</a></li>
+<li><a href="https://www.youtube.com/watch?v=U_1Q5We8Iy4">Fairies Wear Boots</a></li>
+<li><a href="https://www.youtube.com/watch?v=9pTlfX9Ty3E">Into the Void</a></li>
+
+  </ol>
+  <h2>Cannibal Corpse</h2>
+  <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=3p1d0d2MC0k">Hammer Smashed Face</a></li>
+<li><a href="https://www.youtube.com/watch?v=OUa2ebcPh3A">I Cum Blood</a></li>
+<li><a href="https://www.youtube.com/watch?v=qC0pyJY0n9g">Make Them Suffer</a></li>
+<li><a href="https://www.youtube.com/watch?v=UO8z6NQZkCY">Evisceration Plague</a></li>
+<li><a href="https://www.youtube.com/watch?v=bdpQn0xXjA8">Stripped, Raped and Strangled</a></li>
+<li><a href="https://www.youtube.com/watch?v=q2qYQpGH4Dg">Devoured by Vermin</a></li>
+<li><a href="https://www.youtube.com/watch?v=dyODfD44Qz8">Sentenced to Burn</a></li>
+<li><a href="https://www.youtube.com/watch?v=Y0w_xEw27FE">A Skull Full of Maggots</a></li>
+<li><a href="https://www.youtube.com/watch?v=KVjBCT2NOpM">Kill or Become</a></li>
+<li><a href="https://www.youtube.com/watch?v=cyR4yUWEijU">Death Walking Terror</a></li>
+
+            </ol>
+            <h2>Dire Straits</h2>
+            <ol class="box">
+              <li><a href="https://www.youtube.com/watch?v=JRDgihVDEko&list=RDJRDgihVDEko&start_radio=1">"Money For Nothing"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=cF3OWCYLLVQ&list=RDcF3OWCYLLVQ&start_radio=1">"Sultans Of Swing"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=jhdFe3evXpk&list=RDjhdFe3evXpk&start_radio=1">"Brothers In Arms"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=YIHMPc6ZCuI&list=RDYIHMPc6ZCuI&start_radio=1">"So Far Away"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=gAirINwjaxE&list=RDgAirINwjaxE&start_radio=1">"Tunnel Of Love"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=rC95MEenIxA&list=RDrC95MEenIxA&start_radio=1">"Romeo And Juliet"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=kox6DUtSdAM&list=RDkox6DUtSdAM&start_radio=1">"You And Your Friend"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=YMh4jMVSO1Q&list=RDYMh4jMVSO1Q&start_radio=1">"Why Worry"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=21bm9uJYuRo&list=RD21bm9uJYuRo&start_radio=1">"Walk Of Life"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=1P-REO6xqkM&list=RD1P-REO6xqkM&start_radio=1">"Private Investigations"</a></li>
+            </ol>
+            <h2>Green Day</h2>
+<ol class="box">
+              <li><a href="https://www.youtube.com/watch?v=Ee_uujKuJMI&list=RDEe_uujKuJMI&start_radio=1">"American Idiot"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=A1OqtIqzScI&list=RDA1OqtIqzScI&start_radio=1">"Holiday"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=Soa3gO7tL-c&list=RDSoa3gO7tL-c&start_radio=1">"Boulevard Of Broken Dreams"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=NUTGr5t3MoY&list=RDNUTGr5t3MoY&start_radio=1">"Basket Base"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=i8dh9gDzmz8&list=RDi8dh9gDzmz8&start_radio=1">"When I Come Around"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=pGhwBFYtn1s&list=RDpGhwBFYtn1s&start_radio=1">"Wake Me Up When September End"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=r00ikilDxW4&list=RDr00ikilDxW4&start_radio=1">"21 Guns"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=9IclmVdWNbI&list=RD9IclmVdWNbI&start_radio=1">"Know Your Enemy"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=cDBlqu6KF4k&list=RDcDBlqu6KF4k&start_radio=1">"Minority"</a></li>
+              <li><a href="https://www.youtube.com/watch?v=eebfMFzJHNs&list=RDeebfMFzJHNs&start_radio=1">"Warning"</a></li>
+            </ol>
+            <h2>Judas Priest</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=ZDAfZ9-6eKE">Breaking the Law</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZDAfZ9-6eKE&t=1s">Living After Midnight</a></li>
+<li><a href="https://www.youtube.com/watch?v=QkKO2z1f5CQ">Painkiller</a></li>
+<li><a href="https://www.youtube.com/watch?v=pxDq1-8crbA">Electric Eye</a></li>
+<li><a href="https://www.youtube.com/watch?v=5sQW0iXpm_Q">Hell Bent for Leather</a></li>
+<li><a href="https://www.youtube.com/watch?v=NrhT-YEmxAc">You've Got Another Thing Comin’</a></li>
+<li><a href="https://www.youtube.com/watch?v=SPu0pXnmmAQ">Turbo Lover</a></li>
+<li><a href="https://www.youtube.com/watch?v=3F0uAqUz3Qk">The Ripper</a></li>
+<li><a href="https://www.youtube.com/watch?v=6klHYqv4v6o">Beyond the Realms of Death</a></li>
+<li><a href="https://www.youtube.com/watch?v=ncF92vHuQ3g">Victim of Changes</a></li>
+
+
+            </ol>
+
+        <h2>KISS</h2>
+        <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=K9paKQ9VdRA&list=RDK9paKQ9VdRA&start_radio=1">Rock And Roll All Nite</a></li>
+<li><a href="https://www.youtube.com/watch?v=Dz4EFziVkNE&list=RDDz4EFziVkNE&start_radio=1">Detroit Rock City</a></li>
+<li><a href="https://www.youtube.com/watch?v=83f_oVMPv4E&list=RD83f_oVMPv4E&start_radio=1">Deuce</a></li>
+<li><a href="https://www.youtube.com/watch?v=1dFByQyA49I&list=RD1dFByQyA49I&start_radio=1">God Of Thunder</a></li>
+<li><a href="https://www.youtube.com/watch?v=FhO_jnKl4pk&list=RDFhO_jnKl4pk&start_radio=1">Love Gun</a></li>
+<li><a href="https://www.youtube.com/watch?v=cWFc1yUy1lM&list=RDcWFc1yUy1lM&start_radio=1">Beth</a></li>
+<li><a href="https://www.youtube.com/watch?v=FapDsYN-M_k&list=RDFapDsYN-M_k&start_radio=1">Hotter Than Hell</a></li>
+<li><a href="https://www.youtube.com/watch?v=lFGLcsrwT6o&list=RDlFGLcsrwT6o&start_radio=1">Shout It Out Loud</a></li>
+<li><a href="https://www.youtube.com/watch?v=msEgf9r8NIA&list=RDmsEgf9r8NIA&start_radio=1">Black Diamond</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZhIsAZO5gl0&list=RDZhIsAZO5gl0&start_radio=1">I Was Made Lovin’ You</a></li>
+
+            </ol>
+            <h2>Lorna Shore</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=eIg0s1ZK2t8">To the Hellfire</a></li>
+<li><a href="https://www.youtube.com/watch?v=z3Y4oW8o8sI">King Ov Deception</a></li>
+<li><a href="https://www.youtube.com/watch?v=67x9-YF1z-U">Death Portrait</a></li>
+<li><a href="https://www.youtube.com/watch?v=4k2BZgCqVho">Darkest Spawn</a></li>
+<li><a href="https://www.youtube.com/watch?v=4OepyrAYbIE">Flesh Coffin</a></li>
+<li><a href="https://www.youtube.com/watch?v=Z3iZ2Hzrklg">This Is Hell</a></li>
+<li><a href="https://www.youtube.com/watch?v=AfkbZh0FJ10">Pain Remains I: Dancing Like Flames</a></li>
+<li><a href="https://www.youtube.com/watch?v=7vCQFs0Xf9o">Pain Remains II: After All I’ve Done, I’ll Disappear</a></li>
+<li><a href="https://www.youtube.com/watch?v=K5bD4_P1N0Q">Pain Remains III: In a Sea of Fire</a></li>
+<li><a href="https://www.youtube.com/watch?v=gns3Z0EB8Yo">…And I Return to Nothingness</a></li>
+
+
+            </ol>
+            <h2>Mayhem</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=9emO9qo4FwE">Freezing Moon</a></li>
+<li><a href="https://www.youtube.com/watch?v=ksmI3Q05R1g">De Mysteriis Dom Sathanas</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">Funeral Fog</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">Pagan Fears</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">Life Eternal</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">From the Dark Past</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">Buried by Time and Dust</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">Deathcrush</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">Chainsaw Gutsfuck</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">Carnage</a></li>
+
+            </ol>
+            <h2>Metallica</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=CD-E-LDc384">Enter Sandman</a></li>
+<li><a href="https://www.youtube.com/watch?v=xnKhsTXoKCI">Master of Puppets</a></li>
+<li><a href="https://www.youtube.com/watch?v=WM8bTdBs-cw">One</a></li>
+<li><a href="https://www.youtube.com/watch?v=H9tEvfIsDyo">Fade to Black</a></li>
+<li><a href="https://www.youtube.com/watch?v=tAGnKpE4NCI">Nothing Else Matters</a></li>
+<li><a href="https://www.youtube.com/watch?v=1C1mC_6j7jY">Seek & Destroy</a></li>
+<li><a href="https://www.youtube.com/watch?v=FoP1y5vPMuI">For Whom the Bell Tolls</a></li>
+<li><a href="https://www.youtube.com/watch?v=HMn3rwV1tI4">Battery</a></li>
+<li><a href="https://www.youtube.com/watch?v=CD-E-LDc384">Ride the Lightning</a></li>
+<li><a href="https://www.youtube.com/watch?v=Ckom3gf57Yw">The Unforgiven</a></li>
+
+
+            </ol>
+            <h2>Pink Floyd</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=IXdNnw99-Ic">Wish You Were Here</a></li>
+<li><a href="https://www.youtube.com/watch?v=_FrOQC-zEog">Comfortably Numb</a></li>
+<li><a href="https://www.youtube.com/watch?v=JwYX52BP2Sk">Time</a></li>
+<li><a href="https://www.youtube.com/watch?v=-0kcet4aPpQ">Money</a></li>
+<li><a href="https://www.youtube.com/watch?v=cWGE9Gi0bB0">Shine On You Crazy Diamond (Parts I–V)</a></li>
+<li><a href="https://www.youtube.com/watch?v=HoLhKJuGhK0">Us and Them</a></li>
+<li><a href="https://www.youtube.com/watch?v=HrxX9TBj2zY">Another Brick in the Wall (Part 2)</a></li>
+<li><a href="https://www.youtube.com/watch?v=E4Vnt_8eWv4">Echoes</a></li>
+<li><a href="https://www.youtube.com/watch?v=_jI1NGFLgvc">The Great Gig in the Sky</a></li>
+<li><a href="https://www.youtube.com/watch?v=8UX7bEIHLWc">Dogs</a></li>
+
+            </ol>
+            <h2>QUEEN</h2>
+            <ol class="box">
+           
+<li><a href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ">Bohemian Rhapsody</a></li>
+<li><a href="https://www.youtube.com/watch?v=HgzGwKwLmgM">Don’t Stop Me Now</a></li>
+<li><a href="https://www.youtube.com/watch?v=rY0WxgSXdEE">Another One Bites the Dust</a></li>
+<li><a href="https://www.youtube.com/watch?v=-tJYN-eG1zk">We Will Rock You</a></li>
+<li><a href="https://www.youtube.com/watch?v=04854XqcfCY">We Are the Champions</a></li>
+<li><a href="https://www.youtube.com/watch?v=kijpcUv-b8M">Somebody to Love</a></li>
+<li><a href="https://www.youtube.com/watch?v=azdwsXLmrHE">Radio Ga Ga</a></li>
+<li><a href="https://www.youtube.com/watch?v=2ZBtPf7FOoM">Killer Queen</a></li>
+<li><a href="https://www.youtube.com/watch?v=a01QQZyl-_I">Under Pressure (with David Bowie)</a></li>
+<li><a href="https://www.youtube.com/watch?v=t99KH0TR-J4">The Show Must Go On</a></li>
+
+            </ol>
+            <h2>Radiohead</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=XFkzRNyygfk">Creep</a></li>
+<li><a href="https://www.youtube.com/watch?v=IBH97ma9YiI">Karma Police</a></li>
+<li><a href="https://www.youtube.com/watch?v=u5CVsCnxyXg">No Surprises</a></li>
+<li><a href="https://www.youtube.com/watch?v=fHiGbolFFGw">Paranoid Android</a></li>
+<li><a href="https://www.youtube.com/watch?v=7qFfFVSerQo">High and Dry</a></li>
+<li><a href="https://www.youtube.com/watch?v=n5h0qHwNrHk">Fake Plastic Trees</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZJ8QK5pGPxU">Everything in Its Right Place</a></li>
+<li><a href="https://www.youtube.com/watch?v=LCJblaUkkfc">Street Spirit (Fade Out)</a></li>
+<li><a href="https://www.youtube.com/watch?v=7AQSLozK7aA">There, There</a></li>
+<li><a href="https://www.youtube.com/watch?v=rOoCixFA8OI">Reckoner</a></li>
+
+            </ol>
+            <h2>Red Hot Chilli Peppers</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=YlUKcNNmywk">Californication</a></li>
+<li><a href="https://www.youtube.com/watch?v=GLvohMXgcBo">Under the Bridge</a></li>
+<li><a href="https://www.youtube.com/watch?v=mzJj5-lubeM">Scar Tissue</a></li>
+<li><a href="https://www.youtube.com/watch?v=rn_YodiJO6k">Otherside</a></li>
+<li><a href="https://www.youtube.com/watch?v=JnfyjwChuNU">By the Way</a></li>
+<li><a href="https://www.youtube.com/watch?v=Mr_uHJPUlO8">Give It Away</a></li>
+<li><a href="https://www.youtube.com/watch?v=2v6Hk5GSS6k">Snow (Hey Oh)</a></li>
+<li><a href="https://www.youtube.com/watch?v=BfOdWSiyWoc">Can’t Stop</a></li>
+<li><a href="https://www.youtube.com/watch?v=Sb5aq5HcS1A">Dani California</a></li>
+<li><a href="https://www.youtube.com/watch?v=0XcN12uVHeQ">Soul to Squeeze</a></li>
+
+            </ol>
+            <h2>Rob Zombie</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=YY1t06gC3A0">Dragula</a></li>
+<li><a href="https://www.youtube.com/watch?v=p-3s0v2P9J0">Living Dead Girl</a></li>
+<li><a href="https://www.youtube.com/watch?v=Rz1lF-LTr2k">Superbeast</a></li>
+<li><a href="https://www.youtube.com/watch?v=dLGr8sO6u5s">Never Gonna Stop (The Red, Red Kroovy)</a></li>
+<li><a href="https://www.youtube.com/watch?v=KjUBcN1B2YU">More Human than Human (with White Zombie)</a></li>
+<li><a href="https://www.youtube.com/watch?v=75wQrxI8XUw">House of 1000 Corpses</a></li>
+<li><a href="https://www.youtube.com/watch?v=AzF1G5CnMJc">Thunder Kiss ’65 (White Zombie)</a></li>
+<li><a href="https://www.youtube.com/watch?v=1qzQxbJ2g5s">Feel So Numb</a></li>
+<li><a href="https://www.youtube.com/watch?v=3VclwM8v5eo">Demonoid Phenomenon</a></li>
+<li><a href="https://www.youtube.com/watch?v=2rFgj_rwd1o">Dead City Radio and the New Gods of Supertown</a></li>
+
+            </ol>
+            <h2>Slipknot</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=5abamRO41fE">Psychosocial</a></li>
+<li><a href="https://www.youtube.com/watch?v=XEEasR7hVhA">The Devil In I</a></li>
+<li><a href="https://www.youtube.com/watch?v=t3CoZ61oEHI">Duality</a></li>
+<li><a href="https://www.youtube.com/watch?v=pFhN_WX-EgE">Before I Forget</a></li>
+<li><a href="https://www.youtube.com/watch?v=PcdH2E1u03M">Wait and Bleed</a></li>
+<li><a href="https://www.youtube.com/watch?v=S4PDjTjqawY">Snuff</a></li>
+<li><a href="https://www.youtube.com/watch?v=Qs_yS5925kY">Sulfur</a></li>
+<li><a href="https://https://www.youtube.com/watch?v=T0kxNlYEqNQ">Unsainted</a></li>
+<li><a href="https://www.youtube.com/watch?v=C_gcd6U4Cmw">Custer</a></li>
+<li><a href="https://www.youtube.com/watch?v=f_u9j6a1YN0">Eyeless</a></li>
+
+            </ol>
+            <h2>System Of a Down</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=CSvFpBOe8eY">Chop Suey!</a></li>
+<li><a href="https://www.youtube.com/watch?v=4ZT1Qrv5K0g">Toxicity</a></li>
+<li><a href="https://www.youtube.com/watch?v=6Q3_zhdLbS8">Aerials</a></li>
+<li><a href="https://www.youtube.com/watch?v=4vdkaV9JifM">B.Y.O.B.</a></li>
+<li><a href="https://www.youtube.com/watch?v=UYgGiSquzeI">Sugar</a></li>
+<li><a href="https://www.youtube.com/watch?v=3x0Y3YU6OlE">Spiders</a></li>
+<li><a href="https://www.youtube.com/watch?v=D9bzYqV02YA">Question!</a></li>
+<li><a href="https://www.youtube.com/watch?v=TC5wVfrYuUs">Lonely Day</a></li>
+<li><a href="https://www.youtube.com/watch?v=5n0YrlXy0yQ">Hypnotize</a></li>
+<li><a href="https://www.youtube.com/watch?v=TlPFo5C60KY">War? (Maybe) / Lost in Hollywood</a></li>
+
+            </ol>
+            <h2>The Beatles</h2>
+            <ol class="box">
+<li><a href="https://www.youtube.com/watch?v=A_MjCqQoLLA">Hey Jude</a></li>
+<li><a href="https://www.youtube.com/watch?v=QDYfEBY9NM4">Let It Be</a></li>
+<li><a href="https://www.youtube.com/watch?v=oolpPmuK2I8">Come Together</a></li>
+<li><a href="https://www.youtube.com/watch?v=NrgmdOz227I">Yesterday</a></li>
+<li><a href="https://www.youtube.com/watch?v=KQetemT1sWc">Here Comes the Sun</a></li>
+<li><a href="https://www.youtube.com/watch?v=UkLkE7Y6K8U">Something</a></li>
+<li><a href="https://www.youtube.com/watch?v=2Q_ZzBGPdqE">Help!</a></li>
+<li><a href="https://www.youtube.com/watch?v=VJDJs9dumZI">While My Guitar Gently Weeps</a></li>
+<li><a href="https://www.youtube.com/watch?v=_7xMfIp-irg">All You Need Is Love</a></li>
+<li><a href="https://www.youtube.com/watch?v=usNsCeOV4GM">A Day in the Life</a></li>
+
+            </ol>
+            <h2>The Smiths</h2>
+
+            <ol class="box">
+            <li><a href="https://www.youtube.com/watch?v=3GhoWZ5qv5c">There Is a Light That Never Goes Out</a></li>
+<li><a href="https://www.youtube.com/watch?v=cJRP3LRcUFg">This Charming Man</a></li>
+<li><a href="https://www.youtube.com/watch?v=hnpILIIo9ek">How Soon Is Now?</a></li>
+<li><a href="https://www.youtube.com/watch?v=w3qPMe_cCJk">Please Please Please Let Me Get What I Want</a></li>
+<li><a href="https://www.youtube.com/watch?v=SD5engyVXe0">Bigmouth Strikes Again</a></li>
+<li><a href="https://www.youtube.com/watch?v=d0LeL9BUPtA">Heaven Knows I’m Miserable Now</a></li>
+<li><a href="https://www.youtube.com/watch?v=kg8rlMgr0lE">The Boy With the Thorn in His Side</a></li>
+<li><a href="https://www.youtube.com/watch?v=9k5h1CeRnts">Panic</a></li>
+<li><a href="https://www.youtube.com/watch?v=pn8K6347sWI">What Difference Does It Make?</a></li>
+<li><a href="https://www.youtube.com/watch?v=3GhoWZ5qv5c">Girlfriend in a Coma</a></li>
+            </ol>
+
+            <h2>Type O Negative</h2>
+<ol class="box">
+<li><a href="https://www.youtube.com/watch?v=vFwYJYl5GUQ">Black No. 1 (Little Miss Scare‑All)</a></li>
+<li><a href="https://www.youtube.com/watch?v=xD5No_JRrZw">Love You to Death</a></li>
+<li><a href="https://www.youtube.com/watch?v=3sMALbhJU6M">Christian Woman</a></li>
+<li><a href="https://www.youtube.com/watch?v=NJ3aiM8K6D0">Everything Dies</a></li>
+<li><a href="https://www.youtube.com/watch?v=KgkBWZXVLyk">My Girlfriend’s Girlfriend</a></li>
+<li><a href="https://www.youtube.com/watch?v=LXIWRan3XGY">I Don’t Wanna Be Me</a></li>
+<li><a href="https://www.youtube.com/watch?v=BO9aD4mzSE8">Cinnamon Girl</a></li>
+<li><a href="https://www.youtube.com/watch?v=qyZUDuUJyk">The Profit of Doom (single version)</a></li>
+<li><a href="https://www.youtube.com/watch?v=I3jUwd2Xq9o">The Profit of Doom (album version)</a></li>
+<li><a href="https://www.youtube.com/watch?v=some_valid_link_here">September Sun</a></li>
+
+
+            </ol>
+            <h3>Enjoy!</h3>
+</body>
+</html>
