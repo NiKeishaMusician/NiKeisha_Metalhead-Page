@@ -81,9 +81,37 @@ let lyrics = [
 {
   text: '(Band - Black Sabbath) "Rocket engines ____ so fast"',
   correct: "burning fuel"
-}
+},
 
   //Cannibal Corpse
+  {
+    text: "(Cannibal Corpse) Brutality becomes my appetite, ____",
+    correct: "Violence is now a way of life"
+  },
+  {
+    text: "(Cannibal Corpse) I cum blood, from my erection ____ ",
+    correct: "I feel it run, down her throat swallow"
+  },
+  {
+    text: "(Cannibal Corpse) Make them suffer! ____",
+    correct: "Make them suffer!"
+  },
+  {
+    text: "(Cannibal Corpse) Beg for your life, you won't escape the knife ____",
+    correct: "Your fate was sealed today"
+  },
+  {
+    text: "(Cannibal Corpse) She was so beautiful, ____",
+    correct: "I had to kill her"
+  },
+  {
+    text: "(Cannibal Corpse) ____, Gnawing away your flesh",
+    correct: "Devoured by vermin"
+  },
+  {
+    text: "(Cannibal Corpse) Warfare begins, cities are ablaze. ____",
+    correct: "Tortured screams, skin turning black"
+  },
   //Dire Straits
   //Green Day
   //Judas Priest
