@@ -59,11 +59,25 @@
   }
 </script>
       </ul>
-             
+             <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>WARNING!</strong> BEFORE YOU START TEST CLICK "Next Lyric"! 
+</div>
           <h1>Love music?</h1>
           <h2>Listen to any of these amazing 200 songs!</h2>
           <h1>200 SONGS</h1>
-          <h3>ROCK ON!</h3>
+          <h3>ROCK ON!</h3> 
+          <h1>Test yourself by filling empty blanks!</h1>
+
+          <div id="quiz">
+    <p id="lyric"></p>
+    <input type="text" id="answer" placeholder="Type your answer here">
+    <br><br>
+    <button onclick="generateLyric()">Next Lyric</button>
+    <button onclick="checkAnswer()">Check Answer</button>
+    <p id="message"></p>
+  </div>
+
           <h2>AC/DC</h2>
             <ol class="box">
 <li><a href="https://www.youtube.com/watch?v=v2AC41dglnM&list=RDv2AC41dglnM&start_radio=1">Thunderstruck</a></li>
