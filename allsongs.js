@@ -1,6 +1,6 @@
 // allsongs.js
 let lyrics = [
-  //ac/dc
+  //AC/DC
   {
     text: "(AC/DC) You've been ____",
     correct: "thunderstruck"
@@ -41,7 +41,7 @@ let lyrics = [
     correct: "long way"
   },
 
-  //blacksabbath
+  //Black Sabbath
   {
     text: "(Band - Black Sabbath) I am ____",
     correct: "Iron Man"
@@ -83,7 +83,24 @@ let lyrics = [
   correct: "burning fuel"
 }
 
-  //cannibalcorpse
+  //Cannibal Corpse
+  //Dire Straits
+  //Green Day
+  //Judas Priest
+  //KISS
+  //Lorna Shore
+  //Mayhem
+  //Metallica
+  //Pink Floyd
+  //QUEEN
+  //Radiohead
+  //Red Hot chilli Peppers
+  //Rob Zombie
+  //Slipknot
+  //System Of a Down
+  //The Beatles
+  //The Smiths
+  //Type O Negative
 
   
 
