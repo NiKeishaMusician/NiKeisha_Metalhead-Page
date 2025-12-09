@@ -335,10 +335,214 @@ let lyrics = [
   },
   
   //Mayhem
+  {
+    text: "(Mayhem) Follow its call, ____",
+    correct: "Follow the freezing moon"
+  },
+  {
+    text: "(Mayhem) Welcome to the elder ruins again, ____",
+    correct: "The wind whispers"
+  },
+  {
+    text: "(Mayhem) Only dead trees are growing here, ____",
+    correct: "Funeral fog"
+  },
+  {
+    text: "(Mayhem) Pagan fears, ____",
+    correct: "The past is alive"
+  },
+  {
+    text: "(Mayhem) To release the soul, one must die, ____",
+    correct: "To find peace inside, you must get eternal"
+  },
+  {
+    text: "(Mayhem) Tell me - what did you see there, ____",
+    correct: "In the darkness of the past"
+  },
+  {
+    text: "(Mayhem) No one knows my grave, ____",
+    correct: "Buried by time and dust"
+  },
+  {
+    text: "(Mayhem) I come forward, ____!",
+    correct: "Deathcrush"
+  },
+  {
+    text: "(Mayhem) Chainsaw in my bleeding hands, ____",
+    correct: "As I start to cut you in two"
+  },
+  {
+    text: "(Mayhem) Command for blood, command for war, ____",
+    correct: "Command for Satan command for Hell"
+  },
+
   //Metallica
+  {
+    text: "(Metallica) I tuck you in, warm within, keep you free from sin, ____",
+    correct: "'Til the sandman he comes"
+  },
+  {
+    text: "(Metallica) Master of puppets, I'm pulling your strings, ____",
+    correct: "Twisting your mind and smashing your dreams"
+  },
+  {
+    text: "(Metallica) Hold my breath as I wish for death, ____",
+    correct: "Oh please God wake me"
+  },
+  {
+    text: "(Metallica) Life, it seems, will fade away, ____",
+    correct: "Drifting further every day"
+  },
+  {
+    text: "(Metallica) All these words, I don't just say, ____",
+    correct: "And nothing else matters"
+  },
+  {
+    text: "(Metallica) Dyin', one thousand deaths, ____",
+    correct: "Searchin, seek and destroy"
+  },
+  {
+    text: "(Metallica) Time marches on, ____",
+    correct: "For whom the bell tolls"
+  },
+  {
+    text: "(Metallica) Smashing through the boundaries, lunacy has found me, ____",
+    correct: "Cannot stop the battery"
+  },
+  {
+    text: "(Metallica) Flash before my eyes, ____",
+    correct: "Now it's time to die"
+  },
+  {
+    text: "(Metallica) Never free, never me, ____",
+    correct: "So I dub thee unforgiven"
+  },
+
   //Pink Floyd
+  {
+    text: "(Pink Floyd) Running over the same old ground, what have we found? ____",
+    correct: "The same old fears wish you were here"
+  },
+  {
+    text: "(Pink Floyd) The child is grown, the dream is gone, ____",
+    correct: "I have become comfortably numb"
+  },
+  {
+    text: "(Pink Floyd) And there is time to kill today, ____",
+    correct: "And then one day you find"
+  },
+  {
+    text: "(Pink Floyd) Money, it's a hit, ____",
+    correct: "Don't give me that do goody good bullshit"
+  },
+  {
+    text: "(Pink Floyd) You cried for the Moon, ____",
+    correct: "Shine on you crazy diamond"
+  },
+  {
+    text: "(Pink Floyd) Us, and them, ____",
+    correct: "And after all we're only ordinary men"
+  },
+  {
+    text: "(Pink Floyd) All in all, it's just ____",
+    correct: "Another brick in the wall"
+  },
+  {
+    text: "(Pink Floyd) And no one sings me lullabies, ____",
+    correct: "And no one makes me close my eyes"
+  },
+  {
+    text: "(Pink Floyd) And I am not frightened of dying you know, ____",
+    correct: "Any time will do I don't mind"
+  },
+  {
+    text: "(Pink Floyd) Who was fitted with collar and chain? ____?",
+    correct: "Who was given a pat on the back"
+  },
+
   //QUEEN
+  {
+    text: "(QUEEN) Mama, ooh (any way the wind blows), I don't wanna die, ____",
+    correct: "I sometimes wish I'd never been born at all"
+  },
+  {
+    text: "(QUEEN) Don't stop me now, ____",
+    correct: "I'm having such a good time"
+  },
+  {
+    text: "(QUEEN) Hey, I'm gonna get you, too, ____",
+    correct: "Another one bites the dust"
+  },
+  {
+    text: "(QUEEN) Kicking your can all over the place, singin' ____",
+    correct: "We will, we will rock you"
+  },
+  {
+    text: "(QUEEN) We are the champions, No time for losers, ____",
+    correct: "'Cause we are the champions of the world"
+  },
+  {
+    text: "(QUEEN) Can anybody find me, ____?",
+    correct: "Somebody to love"
+  },
+  {
+    text: "(QUEEN) All we hear is radio ga ga, ____",
+    correct: "Radio goo goo"
+  },
+  {
+    text: "(QUEEN) She's a Killer Queen, ____",
+    correct: "Gunpowder, gelatine"
+  },
+  {
+    text: "(QUEEN) Pressure, Pushing down on me, _____",
+    correct: "Pressing down on you"
+  },
+  {
+    text: "(QUEEN) The show must go on, yeah, ____",
+    correct: "Inside my heart is breaking"
+  },
+
   //Radiohead
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
+  {
+    text: "(Radiohead)",
+    correct: ""
+  },
   //Red Hot chilli Peppers
   //Rob Zombie
   //Slipknot
