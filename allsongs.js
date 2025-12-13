@@ -504,56 +504,340 @@ let lyrics = [
 
   //Radiohead
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) But I'm a creep, ____",
+    correct: "I'm a weirdo"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) Karma police, arrest this girl, ____",
+    correct: "Her Hitler hairdo is making me feel ill"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) And no alarms and no surprises, ____",
+    correct: "No alarms and no surprises"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) What's that? ____",
+    correct: "I may be paranoid, but not an android"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) Don't leave me high, ____",
+    correct: "Don't leave me dry"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) Her green plastic watering can, ____",
+    correct: "For her fake, Chinese rubber plant"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) Everything, Everything, Everything, ____",
+    correct: "In its right place"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) Rows of houses all bearing down on me, ____",
+    correct: "I can feel their blue hands touching me"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) There, there, ____",
+    correct: "Why so green"
   },
   {
-    text: "(Radiohead)",
-    correct: ""
+    text: "(Radiohead) Reckoner, ____",
+    correct: "Take me with you"
   },
+
   //Red Hot chilli Peppers
+  {
+    text: "(Red Hot Chilli Peppers) Hardcore soft porn, ____",
+    correct: "Dream of Californication"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) Under the bridge downtown, ____",
+    correct: "Is where I drew some blood"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) Scar tissue that I wish you saw, ____",
+    correct: "Sarcastic mister know it all"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) Mmm, pull the trigger and I pull the thread, ____",
+    correct: "I gotta take it on the otherside"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) By the way, I tried to say, ____",
+    correct: "I'd be there waiting for"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) Give it away, give it away, give it away now, ____",
+    correct: "I can't tell if I'm a kingpin or a pauper"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) Deep beneath the cover of another perfect wonder, ____",
+    correct: "Where it's so white as snow"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) The world I love, the tears I drop, ____",
+    correct: "To be part of the wave can't stop"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) California, rest in peace, ____",
+    correct: "Simultaneous release"
+  },
+  {
+    text: "(Red Hot Chilli Peppers) When I find my peace of mind, ____",
+    correct: "I'm gonna give you some of my good time"
+  },
+
   //Rob Zombie
+  {
+    text: "(Rob Zombie) Dig through the ditches and burn through the witches, ____",
+    correct: "I slam in the back of my Dragula"
+  },
+  {
+    text: "(Rob Zombie) Crawl on me, sink into me, ____",
+    correct: "Die for me, a living dead girl"
+  },
+  {
+    text: "(Rob Zombie) Hey, yeah, I'm the one that you wanted, ____",
+    correct: "Hey, yeah, I'm your superbeast"
+  },
+  {
+    text: "(Rob Zombie) Never gonna stop me, never gonna stop, ____",
+    correct: "Never gonna stop me, never gonna stop"
+  },
+  {
+    text: "(Rob Zombie) More human than human, more human than human, ____",
+    correct: "Yeah, I am the jigsaw man"
+  },
+  {
+    text: "(Rob Zombie) This is the house, ____",
+    correct: "Built on sin"
+  },
+  {
+    text: "(Rob Zombie) 1965, yeah, wow, ____",
+    correct: "Five, yeah, wow"
+  },
+  {
+    text: "(Rob Zombie) Blacken the sun. What have I done? ____",
+    correct: "I feel so good, I feel so numb, yeah"
+  },
+  {
+    text: "(Rob Zombie) Demonoid phenomenon, ____",
+    correct: "Get it out, get it on"
+  },
+  {
+    text: "(Rob Zombie) We listen to the radio",
+    correct: "Dead radio"
+  },
+
   //Slipknot
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+  {
+    text: "(Slipknot) ",
+    correct: ""
+  },
+
   //System Of a Down
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+  {
+    text: "(System Of a Down) ",
+    correct: ""
+  },
+
   //The Beatles
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+  {
+    text: "(The Beatles) ",
+    correct: ""
+  },
+
   //The Smiths
+  {
+    text: "(The Smiths) ",
+    correct: ""
+  },
+  {
+    text: "(The Smiths) ",
+    correct: ""
+  },
+  {
+    text: "(The Smiths) ",
+    correct: ""
+  },
+  {
+    text: "(The Smiths) ",
+    correct: ""
+  },
+
+  {
+    text: "(The Smiths) ",
+    correct: ""
+  },
+  {
+    text: "(The Smiths) ",
+    correct: ""
+  },
+
+  {
+    text: "(The Smiths) ",
+    correct: ""
+  },
+  {
+    text: "(The Smiths) ",
+    correct: ""
+  },
+
   //Type O Negative
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
 
-  
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
 
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
 
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
+
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
+
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
+
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
+
+  {
+    text: "(Type O Negative) ",
+    correct: ""
+  },
 
 ];
 
